@@ -9,8 +9,8 @@ Simple CLI based Password Manager that uses Fernet from Cryptography Python Libr
       - `python3 -m pip3 install cryptography`
 2. Run the code when in the code's directory:
    - Command to run the code: `python passmanager.py`
-     If the above doesn't work then try:
-      - `python3 passmanager.py`
+     If the above doesn't work then try again with `python3 passmanager.py`.
+     
 ## Known Bugs
 - Using a different Master Password still lists all the credentials in `password.txt`.
 
